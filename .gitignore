@@ -1,0 +1,16 @@
+# Derived data and results, all regenerable from R/ + data/raw
+data/clean/
+outputs/
+
+# Deck-styling scripts: kept local for the slide decks, not part of the
+# public method repo (they restyle results into figures).
+R/00_helpers.R
+R/07_deck_charts.R
+R/08_plain_charts.R
+R/09_band.R
+
+# R / macOS cruft
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
